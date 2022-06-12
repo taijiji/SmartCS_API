@@ -1,0 +1,31 @@
+echo "User configuration..."
+#
+create user api group extusr uid 409 encrypt SPS.H.EC3v2a1JRKDVqU.a9k1OIcA0
+set user api permission ttymanage on
+set user api permission root on
+set user api port 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+#
+#
+echo "Portd configuration..."
+#
+set portd service exclusive off
+set portd auth basic
+#
+#
+echo "Ttymanage configuration..."
+#
+enable ttymanage
+#
+#
+echo "Network service configuration..."
+#
+enable ftpd
+set sshd auth basic
+set sshd host_key 1
+set sshd strong_encryption on
+enable sshd
+enable http
+enable https
+create allowhost all service all
+#
+#

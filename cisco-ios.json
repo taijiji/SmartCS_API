@@ -1,0 +1,32 @@
+{
+	"tty": 1,
+	"nl": "cr",
+	"cmd_timeout": 30,
+	"recvchar": [
+		"Switch>",
+		"Switch#",
+		"Press RETURN to get started."
+	],
+	"recvchar_regex": [
+		"[Uu]sername:",
+		"[Pp]assword:",
+		"(^|\\r|\\n|!)[a-zA-Z0-9_().-]*(>|#) "
+	],
+	"sendchar": [
+		"__NL__",
+		"showint",
+		"showint",
+		"enable",
+		"enable",
+		"terminal length 0",
+		"show version",
+		"show license",
+		"show env all",
+		"show process cpu __WAIT__:60",
+		"show process memory __WAIT__:60",
+		"show flash",
+		"show clock",
+		"show running-config",
+		"exit"
+	]
+}
