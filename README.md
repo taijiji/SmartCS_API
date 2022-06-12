@@ -1,6 +1,9 @@
 # SmartCS_API
 コンソールサーバー SmartCS の API を利用したデモプログラムです。
 
+# 動画デモ
+https://youtu.be/qWMwl6M3-_8?t=2674
+
 # API サンプル
 ## /system/version
 <GET>
