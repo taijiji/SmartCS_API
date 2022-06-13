@@ -1,8 +1,9 @@
 # SmartCS_API
 コンソールサーバー SmartCS の API を利用したデモプログラムです。
 
-# 動画デモ
-https://youtu.be/qWMwl6M3-_8?t=2674
+# 動画デモ	
+[![show int API が存在しないレガシー機器をネットワーク自動化する裏ワザ]((https://youtu.be/qWMwl6M3-_8)/0.jpg)](https://youtu.be/qWMwl6M3-_8?t=2674)
+
 
 # サンプルプログラム
 
