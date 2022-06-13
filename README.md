@@ -4,6 +4,26 @@
 # 動画デモ
 https://youtu.be/qWMwl6M3-_8?t=2674
 
+# サンプルプログラム
+
+SmartCSのコンソールポート接続情報を調べるPythonプログラム
+
+```
+python check_tty_port.py
+```
+
+SmartCS経由でコンソール接続されているCisco Catalyst2960へshow versionコマンドを送信するPythonプログラム
+
+```
+python ttymanage_show_version.py
+```
+
+SmartCS経由でコンソール接続されているCisco Catalyst2960のIPアドレスを追加するPythonプログラム
+
+```
+python ttymanage_set_ip.py
+```
+
 # API サンプル
 ## /system/version
 <GET>
