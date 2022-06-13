@@ -26,10 +26,13 @@ python ttymanage_set_ip.py
 
 # API サンプル
 ## /system/version
-<GET>
-curl -u api:api -X GET http://192.168.0.2:10080/api/v1/system/version | jq
 
-python system-version.py 
+GET
+
+```curl -u api:api -X GET http://192.168.0.2:10080/api/v1/system/version | jq```
+
+
+```python system-version.py```
 
 
 ## /users
